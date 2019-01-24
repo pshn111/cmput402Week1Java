@@ -35,4 +35,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testAdd(){
+
+	App app = new App();
+	assert(4==app.add(2,3));
+	
+    }
 }
