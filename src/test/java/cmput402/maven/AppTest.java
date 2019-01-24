@@ -39,7 +39,7 @@ public class AppTest
     public void testAdd(){
 
 	App app = new App();
-	assert(4==app.add(2,3));
+	assert(5==app.add(2,3));
 	
     }
 }
